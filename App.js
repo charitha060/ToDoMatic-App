@@ -87,7 +87,7 @@ class App extends Component  {
           <Col md={{ span: 10, offset: 10 }}>
   
           <InputGroup className="mb-3">
-          <FormControl
+          <FormControl className="md-8"
             
             aria-size="50px"
             value = {this.state.userInput}
@@ -98,12 +98,12 @@ class App extends Component  {
           />
           &nbsp;&nbsp;&nbsp;
          <InputGroup.Append>
-         <Button 
+         <Button className="md-7"
               variant="dark"
               size="lg"
               onClick = {()=>this.addItem()}
               >
-              Add
+              +
             </Button>
          </InputGroup.Append> 
         </InputGroup>
@@ -120,7 +120,7 @@ class App extends Component  {
           <ul className="mb-4">
           {/* map over and print items */}
          {this.state.list.map(item => {return(
-           <li  classname="mb-5" >
+           <li  className="mb-5" >
   
             <ListGroup.Item  action 
               onClick = { () => this.deleteItem(item.id) }>
