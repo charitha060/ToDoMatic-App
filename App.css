@@ -60,9 +60,22 @@
   margin-top: 5ch;
   margin-left: 42ch;
   flex-direction: col;
-  
+  width: 10ch;
   
 }
-
+.md-7{
+  background-color: rgb(78, 77, 77);
+  color:white;
+  width: 4ch;
+  height:4ch;
+}
+.md-8{
+  width: 50ch;
+  
+}
+.mb-5{
+  border-color: white;
+  width: 10ch;
+}
 
 
